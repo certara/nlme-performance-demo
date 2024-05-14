@@ -1,0 +1,70 @@
+ test()  
+
+
+  { 
+
+
+  deriv(Aa = - Ka * Aa)
+
+
+  deriv(A1 = Ka * Aa - Vmax * C / (Km  + C ))
+
+
+
+
+
+  C = A1 / V
+
+
+  dosepoint(Aa, idosevar = AaDose, infdosevar = AaInfDose, infratevar =  AaInfRate)
+
+
+  error(CEps = 0.50003358866794) 
+
+
+  observe(CObs=C + CEps * sqrt(1 + C^2 * (CMultStdev/sigma())^2)) 
+
+
+  fixef( CMultStdev = c(,0.526213743136323,))
+
+
+  stparm(Vmax = tvVmax * exp( nVmax ))
+
+
+  fixef(tvVmax = c(,1257.6713816301,))  
+
+
+  stparm(Km = tvKm )
+
+
+  fixef(tvKm = c(,1409.50440722473,))  
+
+
+  fcovariate(WT)
+
+
+  stparm(V = tvV  * exp( nV ))
+
+
+  fixef(tvV = c(,13.5911464326991,)) 
+
+
+  stparm(Ka = tvKa )
+
+
+  fixef(tvKa = c(,1.22816974682233,))   
+
+
+
+
+
+
+
+
+  ranef(diag(nVmax,nV) = c(0.10968055,0.14864383))
+
+
+
+
+
+  }

@@ -1,0 +1,513 @@
+ ELS FOCE/Laplace process            1  of            1  is alive
+
+ READFLAGS
+ environmental flags and variables
+           0  iflagnp 
+           0  iflagrestart
+           1  norderAGQ
+           1  iflagfocehess
+           1  Allow Gaussian Fit
+           1  METHODblup
+          13  NDIGITblup
+           1  METHODlagl
+           7  NDIGITlagl
+           1  iflagIEXP
+   2.0000000949949026E-003  tolmodlinz
+           0  nrep_pcwres
+         500  Nsample
+         200  Nburn
+           0  iflaganagrad
+           3  iodelevelused
+
+ Initial thetas and bounds
+    i      Thetalo(i)      Thetainit(i)    Thetahi(i)
+    1      0.0000E+00      0.1000E+01      0.1000+101
+    2      0.1000E+03      0.1200E+04      0.3000E+04
+    3      0.1000E+03      0.1200E+04      0.3000E+04
+    4      0.1000E+01      0.1500E+02      0.4000E+02
+    5      0.1000E-01      0.1200E+01      0.3000E+01
+    6      0.1000E-03      0.2000E+01      0.1000E+02
+    7      0.1000E-03      0.3000E+01      0.1000E+02
+    8      0.0000E+00      0.1100E+01      0.1000E+02
+    9      0.1000E-02      0.5000E+00      0.1000+101
+ sigmaLchol=  0.50000000000000000     
+
+ initial packed param vector and typx vector
+         i        packed(i)        typx(i)
+         1        1.000000        1.000000
+         2     1200.000000     1200.000000
+         3     1200.000000     1200.000000
+         4       15.000000       15.000000
+         5        1.200000        1.200000
+         6        2.000000        2.000000
+         7        3.000000        3.000000
+         8        1.100000        1.100000
+         9        0.500000        0.500000
+        10        0.556776        0.556776
+        11        0.556776        0.556776
+
+ Initial fcntheta1 value   3884.7320911876582     
+
+ Nsub from initxtheta=          60
+ Nobstotal =          420
+
+ corresponding ELSobj with zeroed blups=   6997.5558144833913     
+
+Elsobj=   6799.0323      -LL=   3785.4703      evals =    1  ITRMCDsum=   59  501
+Elsobj=   6799.0323      -LL=   3785.4703      evals =    2  ITRMCDsum=   59   62
+ LL value after initial stabilization =    3785.4703215972063     
+ computing forward difference gradient
+Elsobj=   6799.1935      -LL=   3785.5509      evals =    3  ITRMCDsum=   60  128
+Elsobj=   6799.0083      -LL=   3785.4583      evals =    4  ITRMCDsum=   59  171
+Elsobj=   6799.0268      -LL=   3785.4676      evals =    5  ITRMCDsum=   59  127
+Elsobj=   6798.9723      -LL=   3785.4403      evals =    6  ITRMCDsum=   60  165
+Elsobj=   6799.0367      -LL=   3785.4725      evals =    7  ITRMCDsum=   59   93
+Elsobj=   6798.9924      -LL=   3785.4504      evals =    8  ITRMCDsum=   59  146
+Elsobj=   6799.0633      -LL=   3785.4858      evals =    9  ITRMCDsum=   60  149
+Elsobj=   6799.0302      -LL=   3785.4693      evals =   10  ITRMCDsum=   60  111
+Elsobj=   6799.0323      -LL=   3785.4703      evals =   11  ITRMCDsum=   59   63
+Elsobj=   6799.0385      -LL=   3785.4734      evals =   12  ITRMCDsum=   59   66
+Elsobj=   6799.0391      -LL=   3785.4737      evals =   13  ITRMCDsum=   59   66
+ max element scaled gradient and tol =   6.7324197705831965E-002   2.0000000000000001E-004
+ numprocs, LoopCounter =           1           1
+ itotaliter,itncnt,stepmax=           1           1  0.50000000000000000     
+ new lineq search starts at fc =    3785.4703215972063     
+Elsobj=   7033.9361      -LL=   3902.9222      evals =   14  ITRMCDsum=   59  811
+Elsobj=   6739.7390      -LL=   3755.8237      evals =   15  ITRMCDsum=   59  411
+ fc, fp on linesearch exit   3785.4703215972063        3755.8236958593516     
+ computing forward difference gradient
+Elsobj=   6739.8465      -LL=   3755.8774      evals =   16  ITRMCDsum=   59  132
+Elsobj=   6739.7460      -LL=   3755.8272      evals =   17  ITRMCDsum=   58  166
+Elsobj=   6739.7247      -LL=   3755.8165      evals =   18  ITRMCDsum=   59  139
+Elsobj=   6739.7595      -LL=   3755.8340      evals =   19  ITRMCDsum=   59  153
+Elsobj=   6739.7325      -LL=   3755.8204      evals =   20  ITRMCDsum=   60  105
+Elsobj=   6739.7508      -LL=   3755.8296      evals =   21  ITRMCDsum=   58  167
+Elsobj=   6739.7291      -LL=   3755.8187      evals =   22  ITRMCDsum=   59  138
+Elsobj=   6739.7391      -LL=   3755.8237      evals =   23  ITRMCDsum=   58  127
+Elsobj=   6739.7391      -LL=   3755.8237      evals =   24  ITRMCDsum=   58   68
+Elsobj=   6739.7500      -LL=   3755.8292      evals =   25  ITRMCDsum=   60   69
+Elsobj=   6739.7519      -LL=   3755.8301      evals =   26  ITRMCDsum=   58   76
+ max element scaled gradient and tol =   4.4899799509091565E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           2           2  0.50000000000000000     
+ new lineq search starts at fc =    3755.8236958593516     
+Elsobj=   6912.6218      -LL=   3842.2651      evals =   27  ITRMCDsum=   58  383
+Elsobj=   6717.0756      -LL=   3744.4920      evals =   28  ITRMCDsum=   58  310
+ fc, fp on linesearch exit   3755.8236958593516        3744.4920027530775     
+ computing forward difference gradient
+Elsobj=   6717.1490      -LL=   3744.5287      evals =   29  ITRMCDsum=   59  157
+Elsobj=   6717.0894      -LL=   3744.4989      evals =   30  ITRMCDsum=   59  191
+Elsobj=   6717.0583      -LL=   3744.4833      evals =   31  ITRMCDsum=   57  168
+Elsobj=   6717.1100      -LL=   3744.5092      evals =   32  ITRMCDsum=   56  180
+Elsobj=   6717.0651      -LL=   3744.4867      evals =   33  ITRMCDsum=   58  130
+Elsobj=   6717.0962      -LL=   3744.5023      evals =   34  ITRMCDsum=   58  190
+Elsobj=   6717.0606      -LL=   3744.4845      evals =   35  ITRMCDsum=   57  173
+Elsobj=   6717.0805      -LL=   3744.4945      evals =   36  ITRMCDsum=   57  185
+Elsobj=   6717.0756      -LL=   3744.4920      evals =   37  ITRMCDsum=   57   79
+Elsobj=   6717.0872      -LL=   3744.4978      evals =   38  ITRMCDsum=   58   74
+Elsobj=   6717.0881      -LL=   3744.4982      evals =   39  ITRMCDsum=   57   87
+ max element scaled gradient and tol =   3.0900087534910445E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           3           3  0.50000000000000000     
+ new lineq search starts at fc =    3744.4920027530775     
+Elsobj=   6823.1435      -LL=   3797.5260      evals =   40  ITRMCDsum=   59  407
+Elsobj=   6704.0581      -LL=   3737.9833      evals =   41  ITRMCDsum=   60  276
+ fc, fp on linesearch exit   3744.4920027530775        3737.9832519250444     
+ computing forward difference gradient
+Elsobj=   6704.0904      -LL=   3737.9994      evals =   42  ITRMCDsum=   58  136
+Elsobj=   6704.0704      -LL=   3737.9894      evals =   43  ITRMCDsum=   59  158
+Elsobj=   6704.0467      -LL=   3737.9775      evals =   44  ITRMCDsum=   59  163
+Elsobj=   6704.0952      -LL=   3738.0018      evals =   45  ITRMCDsum=   58  152
+Elsobj=   6704.0484      -LL=   3737.9784      evals =   46  ITRMCDsum=   58  120
+Elsobj=   6704.0797      -LL=   3737.9940      evals =   47  ITRMCDsum=   58  169
+Elsobj=   6704.0467      -LL=   3737.9776      evals =   48  ITRMCDsum=   58  146
+Elsobj=   6704.0627      -LL=   3737.9855      evals =   49  ITRMCDsum=   58  131
+Elsobj=   6704.0581      -LL=   3737.9832      evals =   50  ITRMCDsum=   59   63
+Elsobj=   6704.0716      -LL=   3737.9900      evals =   51  ITRMCDsum=   59   68
+Elsobj=   6704.0719      -LL=   3737.9901      evals =   52  ITRMCDsum=   59   73
+ max element scaled gradient and tol =   1.5639380594856353E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           4           4  0.50000000000000000     
+ new lineq search starts at fc =    3737.9832519250444     
+Elsobj=   6700.2169      -LL=   3736.0626      evals =   53  ITRMCDsum=   60  314
+ fc, fp on linesearch exit   3737.9832519250444        3736.0626116080271     
+ computing forward difference gradient
+Elsobj=   6700.1196      -LL=   3736.0140      evals =   54  ITRMCDsum=   60  138
+Elsobj=   6700.2189      -LL=   3736.0637      evals =   55  ITRMCDsum=   59  170
+Elsobj=   6700.2078      -LL=   3736.0581      evals =   56  ITRMCDsum=   59  136
+Elsobj=   6700.2199      -LL=   3736.0641      evals =   57  ITRMCDsum=   58  171
+Elsobj=   6700.2128      -LL=   3736.0606      evals =   58  ITRMCDsum=   60  114
+Elsobj=   6700.2185      -LL=   3736.0634      evals =   59  ITRMCDsum=   60  157
+Elsobj=   6700.2181      -LL=   3736.0632      evals =   60  ITRMCDsum=   59  153
+Elsobj=   6700.2176      -LL=   3736.0630      evals =   61  ITRMCDsum=   60  129
+Elsobj=   6700.2169      -LL=   3736.0626      evals =   62  ITRMCDsum=   60   60
+Elsobj=   6700.2301      -LL=   3736.0692      evals =   63  ITRMCDsum=   60   75
+Elsobj=   6700.2335      -LL=   3736.0709      evals =   64  ITRMCDsum=   60   64
+ max element scaled gradient and tol =   4.1137473861959914E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           5           5  0.50000000000000000     
+ new lineq search starts at fc =    3736.0626116080271     
+Elsobj=   6693.4018      -LL=   3732.6551      evals =   65  ITRMCDsum=   60  276
+ fc, fp on linesearch exit   3736.0626116080271        3732.6551003331651     
+ computing forward difference gradient
+Elsobj=   6693.3978      -LL=   3732.6531      evals =   66  ITRMCDsum=   59  140
+Elsobj=   6693.3971      -LL=   3732.6527      evals =   67  ITRMCDsum=   59  181
+Elsobj=   6693.3936      -LL=   3732.6510      evals =   68  ITRMCDsum=   59  137
+Elsobj=   6693.4023      -LL=   3732.6553      evals =   69  ITRMCDsum=   58  164
+Elsobj=   6693.3987      -LL=   3732.6536      evals =   70  ITRMCDsum=   60   94
+Elsobj=   6693.4005      -LL=   3732.6544      evals =   71  ITRMCDsum=   59  149
+Elsobj=   6693.4004      -LL=   3732.6544      evals =   72  ITRMCDsum=   58  151
+Elsobj=   6693.4010      -LL=   3732.6547      evals =   73  ITRMCDsum=   59  123
+Elsobj=   6693.4018      -LL=   3732.6551      evals =   74  ITRMCDsum=   60   60
+Elsobj=   6693.4117      -LL=   3732.6600      evals =   75  ITRMCDsum=   60   68
+Elsobj=   6693.4184      -LL=   3732.6634      evals =   76  ITRMCDsum=   60   67
+ max element scaled gradient and tol =   7.0010158412619240E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           6           6  0.50000000000000000     
+ new lineq search starts at fc =    3732.6551003331651     
+Elsobj=   6690.5163      -LL=   3731.2124      evals =   77  ITRMCDsum=   58  226
+ fc, fp on linesearch exit   3732.6551003331651        3731.2123549620492     
+ computing forward difference gradient
+Elsobj=   6690.5255      -LL=   3731.2169      evals =   78  ITRMCDsum=   56  137
+Elsobj=   6690.5122      -LL=   3731.2103      evals =   79  ITRMCDsum=   59  171
+Elsobj=   6690.5105      -LL=   3731.2094      evals =   80  ITRMCDsum=   57  150
+Elsobj=   6690.5132      -LL=   3731.2108      evals =   81  ITRMCDsum=   58  170
+Elsobj=   6690.5174      -LL=   3731.2129      evals =   82  ITRMCDsum=   59  121
+Elsobj=   6690.5130      -LL=   3731.2107      evals =   83  ITRMCDsum=   59  175
+Elsobj=   6690.5187      -LL=   3731.2135      evals =   84  ITRMCDsum=   58  139
+Elsobj=   6690.5169      -LL=   3731.2127      evals =   85  ITRMCDsum=   57  145
+Elsobj=   6690.5164      -LL=   3731.2124      evals =   86  ITRMCDsum=   58   66
+Elsobj=   6690.5276      -LL=   3731.2180      evals =   87  ITRMCDsum=   57   73
+Elsobj=   6690.5314      -LL=   3731.2199      evals =   88  ITRMCDsum=   57   79
+ max element scaled gradient and tol =   6.3616363226003331E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           7           7  0.50000000000000000     
+ new lineq search starts at fc =    3731.2123549620492     
+Elsobj=   6685.5829      -LL=   3728.7457      evals =   89  ITRMCDsum=   60  342
+ fc, fp on linesearch exit   3731.2123549620492        3728.7456548578866     
+ computing forward difference gradient
+Elsobj=   6685.6306      -LL=   3728.7695      evals =   90  ITRMCDsum=   58  155
+Elsobj=   6685.5518      -LL=   3728.7301      evals =   91  ITRMCDsum=   57  182
+Elsobj=   6685.5906      -LL=   3728.7495      evals =   92  ITRMCDsum=   58  130
+Elsobj=   6685.5442      -LL=   3728.7263      evals =   93  ITRMCDsum=   60  143
+Elsobj=   6685.6060      -LL=   3728.7572      evals =   94  ITRMCDsum=   58   95
+Elsobj=   6685.5658      -LL=   3728.7371      evals =   95  ITRMCDsum=   60  156
+Elsobj=   6685.5902      -LL=   3728.7493      evals =   96  ITRMCDsum=   57  150
+Elsobj=   6685.5794      -LL=   3728.7439      evals =   97  ITRMCDsum=   59  124
+Elsobj=   6685.5831      -LL=   3728.7457      evals =   98  ITRMCDsum=   60   67
+Elsobj=   6685.5762      -LL=   3728.7423      evals =   99  ITRMCDsum=   59   80
+Elsobj=   6685.5718      -LL=   3728.7401      evals =  100  ITRMCDsum=   60   83
+ max element scaled gradient and tol =   2.0216129399064066E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           8           8  0.50000000000000000     
+ new lineq search starts at fc =    3728.7456548578866     
+Elsobj=   6679.9207      -LL=   3725.9145      evals =  101  ITRMCDsum=   56  344
+ fc, fp on linesearch exit   3728.7456548578866        3725.9145315282644     
+ computing forward difference gradient
+Elsobj=   6679.9385      -LL=   3725.9235      evals =  102  ITRMCDsum=   57  144
+Elsobj=   6679.9199      -LL=   3725.9141      evals =  103  ITRMCDsum=   58  173
+Elsobj=   6679.9160      -LL=   3725.9122      evals =  104  ITRMCDsum=   58  148
+Elsobj=   6679.9238      -LL=   3725.9161      evals =  105  ITRMCDsum=   57  164
+Elsobj=   6679.9331      -LL=   3725.9207      evals =  106  ITRMCDsum=   56  105
+Elsobj=   6679.9252      -LL=   3725.9168      evals =  107  ITRMCDsum=   58  163
+Elsobj=   6679.9161      -LL=   3725.9122      evals =  108  ITRMCDsum=   58  155
+Elsobj=   6679.9223      -LL=   3725.9153      evals =  109  ITRMCDsum=   60  137
+Elsobj=   6679.9206      -LL=   3725.9145      evals =  110  ITRMCDsum=   57   71
+Elsobj=   6679.9243      -LL=   3725.9163      evals =  111  ITRMCDsum=   56   84
+Elsobj=   6679.9244      -LL=   3725.9164      evals =  112  ITRMCDsum=   55   89
+ max element scaled gradient and tol =   7.5683062556581963E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=           9           9  0.50000000000000000     
+ new lineq search starts at fc =    3725.9145315282644     
+Elsobj=   6678.7157      -LL=   3725.3120      evals =  113  ITRMCDsum=   60  281
+ fc, fp on linesearch exit   3725.9145315282644        3725.3120294396344     
+ computing forward difference gradient
+Elsobj=   6678.7237      -LL=   3725.3161      evals =  114  ITRMCDsum=   59  138
+Elsobj=   6678.7174      -LL=   3725.3129      evals =  115  ITRMCDsum=   56  188
+Elsobj=   6678.7134      -LL=   3725.3109      evals =  116  ITRMCDsum=   58  139
+Elsobj=   6678.7191      -LL=   3725.3137      evals =  117  ITRMCDsum=   59  164
+Elsobj=   6678.7235      -LL=   3725.3159      evals =  118  ITRMCDsum=   60   97
+Elsobj=   6678.7172      -LL=   3725.3128      evals =  119  ITRMCDsum=   60  150
+Elsobj=   6678.7129      -LL=   3725.3107      evals =  120  ITRMCDsum=   56  146
+Elsobj=   6678.7162      -LL=   3725.3123      evals =  121  ITRMCDsum=   58  130
+Elsobj=   6678.7157      -LL=   3725.3120      evals =  122  ITRMCDsum=   60   67
+Elsobj=   6678.7172      -LL=   3725.3128      evals =  123  ITRMCDsum=   59   83
+Elsobj=   6678.7151      -LL=   3725.3117      evals =  124  ITRMCDsum=   59   80
+ max element scaled gradient and tol =   3.4155088751869176E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          10          10  0.50000000000000000     
+ new lineq search starts at fc =    3725.3120294396344     
+Elsobj=   6678.3494      -LL=   3725.1289      evals =  125  ITRMCDsum=   59  211
+ fc, fp on linesearch exit   3725.3120294396344        3725.1288914496081     
+ computing forward difference gradient
+Elsobj=   6678.3478      -LL=   3725.1281      evals =  126  ITRMCDsum=   58  131
+Elsobj=   6678.3458      -LL=   3725.1271      evals =  127  ITRMCDsum=   58  156
+Elsobj=   6678.3481      -LL=   3725.1282      evals =  128  ITRMCDsum=   58  130
+Elsobj=   6678.3459      -LL=   3725.1271      evals =  129  ITRMCDsum=   59  138
+Elsobj=   6678.3515      -LL=   3725.1300      evals =  130  ITRMCDsum=   58   98
+Elsobj=   6678.3459      -LL=   3725.1272      evals =  131  ITRMCDsum=   59  139
+Elsobj=   6678.3523      -LL=   3725.1303      evals =  132  ITRMCDsum=   58  135
+Elsobj=   6678.3484      -LL=   3725.1284      evals =  133  ITRMCDsum=   60  111
+Elsobj=   6678.3494      -LL=   3725.1289      evals =  134  ITRMCDsum=   59   62
+Elsobj=   6678.3508      -LL=   3725.1296      evals =  135  ITRMCDsum=   59   78
+Elsobj=   6678.3486      -LL=   3725.1285      evals =  136  ITRMCDsum=   59   76
+ max element scaled gradient and tol =   1.5197746614079204E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          11          11  0.50000000000000000     
+ new lineq search starts at fc =    3725.1288914496081     
+Elsobj=   6678.2522      -LL=   3725.0803      evals =  137  ITRMCDsum=   59  215
+ fc, fp on linesearch exit   3725.1288914496081        3725.0802676097996     
+ computing forward difference gradient
+Elsobj=   6678.2496      -LL=   3725.0790      evals =  138  ITRMCDsum=   59  148
+Elsobj=   6678.2564      -LL=   3725.0824      evals =  139  ITRMCDsum=   54  184
+Elsobj=   6678.2498      -LL=   3725.0791      evals =  140  ITRMCDsum=   57  158
+Elsobj=   6678.2537      -LL=   3725.0810      evals =  141  ITRMCDsum=   58  180
+Elsobj=   6678.2511      -LL=   3725.0797      evals =  142  ITRMCDsum=   56  118
+Elsobj=   6678.2524      -LL=   3725.0804      evals =  143  ITRMCDsum=   58  169
+Elsobj=   6678.2565      -LL=   3725.0824      evals =  144  ITRMCDsum=   58  145
+Elsobj=   6678.2531      -LL=   3725.0807      evals =  145  ITRMCDsum=   57  135
+Elsobj=   6678.2521      -LL=   3725.0802      evals =  146  ITRMCDsum=   59   71
+Elsobj=   6678.2543      -LL=   3725.0813      evals =  147  ITRMCDsum=   58   96
+Elsobj=   6678.2504      -LL=   3725.0794      evals =  148  ITRMCDsum=   58   87
+ max element scaled gradient and tol =   1.8299722080434705E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          12          12  0.50000000000000000     
+ new lineq search starts at fc =    3725.0802676097996     
+Elsobj=   6678.2051      -LL=   3725.0568      evals =  149  ITRMCDsum=   59  223
+ fc, fp on linesearch exit   3725.0802676097996        3725.0567586562092     
+ computing forward difference gradient
+Elsobj=   6678.2009      -LL=   3725.0546      evals =  150  ITRMCDsum=   59  131
+Elsobj=   6678.1983      -LL=   3725.0534      evals =  151  ITRMCDsum=   60  144
+Elsobj=   6678.2017      -LL=   3725.0551      evals =  152  ITRMCDsum=   60  125
+Elsobj=   6678.2095      -LL=   3725.0589      evals =  153  ITRMCDsum=   59  133
+Elsobj=   6678.2021      -LL=   3725.0553      evals =  154  ITRMCDsum=   58  113
+Elsobj=   6678.2047      -LL=   3725.0565      evals =  155  ITRMCDsum=   59  137
+Elsobj=   6678.2015      -LL=   3725.0549      evals =  156  ITRMCDsum=   57  157
+Elsobj=   6678.2033      -LL=   3725.0558      evals =  157  ITRMCDsum=   60  110
+Elsobj=   6678.2052      -LL=   3725.0568      evals =  158  ITRMCDsum=   59   65
+Elsobj=   6678.2047      -LL=   3725.0565      evals =  159  ITRMCDsum=   59   81
+Elsobj=   6678.2025      -LL=   3725.0554      evals =  160  ITRMCDsum=   58   86
+ max element scaled gradient and tol =   2.8907074518285721E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          13          13  0.50000000000000000     
+ new lineq search starts at fc =    3725.0567586562092     
+Elsobj=   6678.1670      -LL=   3725.0377      evals =  161  ITRMCDsum=   57  210
+ fc, fp on linesearch exit   3725.0567586562092        3725.0376981651712     
+ computing forward difference gradient
+Elsobj=   6678.1694      -LL=   3725.0389      evals =  162  ITRMCDsum=   54  173
+Elsobj=   6678.1614      -LL=   3725.0349      evals =  163  ITRMCDsum=   58  166
+Elsobj=   6678.1640      -LL=   3725.0362      evals =  164  ITRMCDsum=   58  139
+Elsobj=   6678.1752      -LL=   3725.0418      evals =  165  ITRMCDsum=   57  168
+Elsobj=   6678.1680      -LL=   3725.0382      evals =  166  ITRMCDsum=   59  100
+Elsobj=   6678.1697      -LL=   3725.0390      evals =  167  ITRMCDsum=   55  152
+Elsobj=   6678.1636      -LL=   3725.0360      evals =  168  ITRMCDsum=   56  146
+Elsobj=   6678.1662      -LL=   3725.0373      evals =  169  ITRMCDsum=   57  129
+Elsobj=   6678.1670      -LL=   3725.0377      evals =  170  ITRMCDsum=   57   67
+Elsobj=   6678.1644      -LL=   3725.0364      evals =  171  ITRMCDsum=   58   91
+Elsobj=   6678.1645      -LL=   3725.0364      evals =  172  ITRMCDsum=   59   85
+ max element scaled gradient and tol =   3.4817848142699843E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          14          14  0.50000000000000000     
+ new lineq search starts at fc =    3725.0376981651712     
+Elsobj=   6678.5776      -LL=   3725.2430      evals =  173  ITRMCDsum=   56  269
+Elsobj=   6678.1554      -LL=   3725.0319      evals =  174  ITRMCDsum=   56  229
+ fc, fp on linesearch exit   3725.0376981651712        3725.0319030421251     
+ computing forward difference gradient
+Elsobj=   6678.1575      -LL=   3725.0329      evals =  175  ITRMCDsum=   59  160
+Elsobj=   6678.1518      -LL=   3725.0301      evals =  176  ITRMCDsum=   56  224
+Elsobj=   6678.1556      -LL=   3725.0320      evals =  177  ITRMCDsum=   57  133
+Elsobj=   6678.1627      -LL=   3725.0355      evals =  178  ITRMCDsum=   58  166
+Elsobj=   6678.1551      -LL=   3725.0318      evals =  179  ITRMCDsum=   58  140
+Elsobj=   6678.1589      -LL=   3725.0336      evals =  180  ITRMCDsum=   58  144
+Elsobj=   6678.1530      -LL=   3725.0307      evals =  181  ITRMCDsum=   58  163
+Elsobj=   6678.1572      -LL=   3725.0328      evals =  182  ITRMCDsum=   57  139
+Elsobj=   6678.1554      -LL=   3725.0319      evals =  183  ITRMCDsum=   56   70
+Elsobj=   6678.1515      -LL=   3725.0299      evals =  184  ITRMCDsum=   57   89
+Elsobj=   6678.1524      -LL=   3725.0304      evals =  185  ITRMCDsum=   57   85
+ max element scaled gradient and tol =   3.0844609494994901E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          15          15  0.50000000000000000     
+ new lineq search starts at fc =    3725.0319030421251     
+Elsobj=   6677.9038      -LL=   3724.9061      evals =  186  ITRMCDsum=   57  268
+ fc, fp on linesearch exit   3725.0319030421251        3724.9061068504507     
+ computing forward difference gradient
+Elsobj=   6677.9152      -LL=   3724.9118      evals =  187  ITRMCDsum=   58  159
+Elsobj=   6677.9014      -LL=   3724.9049      evals =  188  ITRMCDsum=   58  160
+Elsobj=   6677.9024      -LL=   3724.9054      evals =  189  ITRMCDsum=   56  154
+Elsobj=   6677.8958      -LL=   3724.9021      evals =  190  ITRMCDsum=   58  167
+Elsobj=   6677.9105      -LL=   3724.9094      evals =  191  ITRMCDsum=   58  110
+Elsobj=   6677.8991      -LL=   3724.9037      evals =  192  ITRMCDsum=   57  159
+Elsobj=   6677.9074      -LL=   3724.9079      evals =  193  ITRMCDsum=   58  162
+Elsobj=   6677.9036      -LL=   3724.9060      evals =  194  ITRMCDsum=   57  153
+Elsobj=   6677.9033      -LL=   3724.9059      evals =  195  ITRMCDsum=   57   71
+Elsobj=   6677.9013      -LL=   3724.9048      evals =  196  ITRMCDsum=   56   87
+Elsobj=   6677.9031      -LL=   3724.9058      evals =  197  ITRMCDsum=   57   81
+ max element scaled gradient and tol =   4.8097800352999405E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          16          16  0.50000000000000000     
+ new lineq search starts at fc =    3724.9061068504507     
+Elsobj=   6677.6889      -LL=   3724.7986      evals =  198  ITRMCDsum=   57  243
+ fc, fp on linesearch exit   3724.9061068504507        3724.7986215414421     
+ computing forward difference gradient
+Elsobj=   6677.6936      -LL=   3724.8010      evals =  199  ITRMCDsum=   56  159
+Elsobj=   6677.6920      -LL=   3724.8002      evals =  200  ITRMCDsum=   52  218
+Elsobj=   6677.6861      -LL=   3724.7972      evals =  201  ITRMCDsum=   55  164
+Elsobj=   6677.6838      -LL=   3724.7961      evals =  202  ITRMCDsum=   55  175
+Elsobj=   6677.6931      -LL=   3724.8007      evals =  203  ITRMCDsum=   55  139
+Elsobj=   6677.6860      -LL=   3724.7972      evals =  204  ITRMCDsum=   58  184
+Elsobj=   6677.6940      -LL=   3724.8012      evals =  205  ITRMCDsum=   55  177
+Elsobj=   6677.6889      -LL=   3724.7987      evals =  206  ITRMCDsum=   56  132
+Elsobj=   6677.6889      -LL=   3724.7986      evals =  207  ITRMCDsum=   57   72
+Elsobj=   6677.6872      -LL=   3724.7978      evals =  208  ITRMCDsum=   54   89
+Elsobj=   6677.6902      -LL=   3724.7993      evals =  209  ITRMCDsum=   57   86
+ max element scaled gradient and tol =   2.1630500997621934E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          17          17  0.50000000000000000     
+ new lineq search starts at fc =    3724.7986215414421     
+Elsobj=   6677.5838      -LL=   3724.7461      evals =  210  ITRMCDsum=   56  256
+ fc, fp on linesearch exit   3724.7986215414421        3724.7460838720763     
+ computing forward difference gradient
+Elsobj=   6677.5838      -LL=   3724.7461      evals =  211  ITRMCDsum=   56  152
+Elsobj=   6677.5830      -LL=   3724.7457      evals =  212  ITRMCDsum=   57  200
+Elsobj=   6677.5807      -LL=   3724.7445      evals =  213  ITRMCDsum=   56  149
+Elsobj=   6677.5901      -LL=   3724.7492      evals =  214  ITRMCDsum=   57  184
+Elsobj=   6677.5847      -LL=   3724.7465      evals =  215  ITRMCDsum=   55  127
+Elsobj=   6677.5853      -LL=   3724.7468      evals =  216  ITRMCDsum=   57  196
+Elsobj=   6677.5816      -LL=   3724.7450      evals =  217  ITRMCDsum=   58  184
+Elsobj=   6677.5839      -LL=   3724.7461      evals =  218  ITRMCDsum=   56  134
+Elsobj=   6677.5838      -LL=   3724.7461      evals =  219  ITRMCDsum=   55   73
+Elsobj=   6677.5813      -LL=   3724.7449      evals =  220  ITRMCDsum=   54   84
+Elsobj=   6677.5863      -LL=   3724.7473      evals =  221  ITRMCDsum=   55   87
+ max element scaled gradient and tol =   2.6563838313413053E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          18          18  0.50000000000000000     
+ new lineq search starts at fc =    3724.7460838720763     
+Elsobj=   6677.6245      -LL=   3724.7665      evals =  222  ITRMCDsum=   54  296
+Elsobj=   6677.5282      -LL=   3724.7183      evals =  223  ITRMCDsum=   58  242
+ fc, fp on linesearch exit   3724.7460838720763        3724.7182757237274     
+ computing forward difference gradient
+Elsobj=   6677.5271      -LL=   3724.7177      evals =  224  ITRMCDsum=   57  130
+Elsobj=   6677.5274      -LL=   3724.7179      evals =  225  ITRMCDsum=   59  143
+Elsobj=   6677.5273      -LL=   3724.7179      evals =  226  ITRMCDsum=   57  152
+Elsobj=   6677.5358      -LL=   3724.7221      evals =  227  ITRMCDsum=   56  172
+Elsobj=   6677.5290      -LL=   3724.7187      evals =  228  ITRMCDsum=   58  118
+Elsobj=   6677.5308      -LL=   3724.7196      evals =  229  ITRMCDsum=   54  158
+Elsobj=   6677.5265      -LL=   3724.7175      evals =  230  ITRMCDsum=   58  156
+Elsobj=   6677.5273      -LL=   3724.7178      evals =  231  ITRMCDsum=   58  127
+Elsobj=   6677.5282      -LL=   3724.7183      evals =  232  ITRMCDsum=   58   65
+Elsobj=   6677.5267      -LL=   3724.7175      evals =  233  ITRMCDsum=   57   88
+Elsobj=   6677.5318      -LL=   3724.7201      evals =  234  ITRMCDsum=   58   78
+ max element scaled gradient and tol =   3.2131899876848865E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          19          19  0.50000000000000000     
+ new lineq search starts at fc =    3724.7182757237274     
+Elsobj=   6677.3286      -LL=   3724.6185      evals =  235  ITRMCDsum=   56  208
+ fc, fp on linesearch exit   3724.7182757237274        3724.6184700021709     
+ computing forward difference gradient
+Elsobj=   6677.3275      -LL=   3724.6179      evals =  236  ITRMCDsum=   55  155
+Elsobj=   6677.3328      -LL=   3724.6206      evals =  237  ITRMCDsum=   56  198
+Elsobj=   6677.3279      -LL=   3724.6181      evals =  238  ITRMCDsum=   56  164
+Elsobj=   6677.3389      -LL=   3724.6237      evals =  239  ITRMCDsum=   56  178
+Elsobj=   6677.3285      -LL=   3724.6184      evals =  240  ITRMCDsum=   56  143
+Elsobj=   6677.3325      -LL=   3724.6204      evals =  241  ITRMCDsum=   54  178
+Elsobj=   6677.3283      -LL=   3724.6183      evals =  242  ITRMCDsum=   56  180
+Elsobj=   6677.3665      -LL=   3724.6374      evals =  243  ITRMCDsum=   54  158
+Elsobj=   6677.3284      -LL=   3724.6184      evals =  244  ITRMCDsum=   55   79
+Elsobj=   6677.3245      -LL=   3724.6164      evals =  245  ITRMCDsum=   58   96
+Elsobj=   6677.3327      -LL=   3724.6205      evals =  246  ITRMCDsum=   56   97
+ max element scaled gradient and tol =   1.6109590190294260E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          20          20  0.50000000000000000     
+ new lineq search starts at fc =    3724.6184700021709     
+Elsobj=   6687.8972      -LL=   3729.9028      evals =  247  ITRMCDsum=   60  350
+Elsobj=   6677.1333      -LL=   3724.5208      evals =  248  ITRMCDsum=   57  261
+ fc, fp on linesearch exit   3724.6184700021709        3724.5208202016534     
+ computing forward difference gradient
+Elsobj=   6677.1260      -LL=   3724.5172      evals =  249  ITRMCDsum=   57  202
+Elsobj=   6677.1404      -LL=   3724.5244      evals =  250  ITRMCDsum=   53  200
+Elsobj=   6677.1350      -LL=   3724.5217      evals =  251  ITRMCDsum=   52  152
+Elsobj=   6677.1516      -LL=   3724.5300      evals =  252  ITRMCDsum=   57  189
+Elsobj=   6677.1322      -LL=   3724.5203      evals =  253  ITRMCDsum=   56  126
+Elsobj=   6677.1370      -LL=   3724.5227      evals =  254  ITRMCDsum=   54  161
+Elsobj=   6677.1753      -LL=   3724.5418      evals =  255  ITRMCDsum=   57  179
+Elsobj=   6677.1363      -LL=   3724.5223      evals =  256  ITRMCDsum=   55  168
+Elsobj=   6677.1332      -LL=   3724.5208      evals =  257  ITRMCDsum=   56   79
+Elsobj=   6677.1307      -LL=   3724.5196      evals =  258  ITRMCDsum=   57  105
+Elsobj=   6677.1353      -LL=   3724.5218      evals =  259  ITRMCDsum=   56   95
+ max element scaled gradient and tol =   1.7834521552281869E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          21          21  0.50000000000000000     
+ new lineq search starts at fc =    3724.5208202016534     
+Elsobj=   6696.4355      -LL=   3734.1719      evals =  260  ITRMCDsum=   59  377
+Elsobj=   6677.6806      -LL=   3724.7945      evals =  261  ITRMCDsum=   56  292
+Elsobj=   6677.2341      -LL=   3724.5712      evals =  262  ITRMCDsum=   57  253
+Elsobj=   6677.1341      -LL=   3724.5212      evals =  263  ITRMCDsum=   56  217
+Elsobj=   6677.1270      -LL=   3724.5177      evals =  264  ITRMCDsum=   57  204
+ fc, fp on linesearch exit   3724.5208202016534        3724.5176763221680     
+ computing forward difference gradient
+Elsobj=   6677.1185      -LL=   3724.5134      evals =  265  ITRMCDsum=   56  153
+Elsobj=   6677.1286      -LL=   3724.5185      evals =  266  ITRMCDsum=   54  172
+Elsobj=   6677.1234      -LL=   3724.5159      evals =  267  ITRMCDsum=   55  149
+Elsobj=   6677.1377      -LL=   3724.5230      evals =  268  ITRMCDsum=   57  177
+Elsobj=   6677.1218      -LL=   3724.5151      evals =  269  ITRMCDsum=   56  130
+Elsobj=   6677.1301      -LL=   3724.5193      evals =  270  ITRMCDsum=   54  183
+Elsobj=   6677.1290      -LL=   3724.5187      evals =  271  ITRMCDsum=   57  186
+Elsobj=   6677.1331      -LL=   3724.5207      evals =  272  ITRMCDsum=   56  152
+Elsobj=   6677.1272      -LL=   3724.5178      evals =  273  ITRMCDsum=   58   72
+Elsobj=   6677.1236      -LL=   3724.5160      evals =  274  ITRMCDsum=   57   98
+Elsobj=   6677.1286      -LL=   3724.5185      evals =  275  ITRMCDsum=   58   89
+ max element scaled gradient and tol =   4.5587780753242610E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          22          22  0.50000000000000000     
+ new lineq search starts at fc =    3724.5176763221680     
+Elsobj=   6676.9603      -LL=   3724.4343      evals =  276  ITRMCDsum=   56  238
+ fc, fp on linesearch exit   3724.5176763221680        3724.4343368804857     
+ computing forward difference gradient
+Elsobj=   6676.9545      -LL=   3724.4314      evals =  277  ITRMCDsum=   54  168
+Elsobj=   6676.9982      -LL=   3724.4533      evals =  278  ITRMCDsum=   57  227
+Elsobj=   6676.9569      -LL=   3724.4326      evals =  279  ITRMCDsum=   54  134
+Elsobj=   6677.0032      -LL=   3724.4558      evals =  280  ITRMCDsum=   57  189
+Elsobj=   6676.9582      -LL=   3724.4333      evals =  281  ITRMCDsum=   54  136
+Elsobj=   6676.9610      -LL=   3724.4347      evals =  282  ITRMCDsum=   55  162
+Elsobj=   6676.9962      -LL=   3724.4523      evals =  283  ITRMCDsum=   56  209
+Elsobj=   6676.9946      -LL=   3724.4515      evals =  284  ITRMCDsum=   56  173
+Elsobj=   6676.9603      -LL=   3724.4343      evals =  285  ITRMCDsum=   56   68
+Elsobj=   6676.9565      -LL=   3724.4324      evals =  286  ITRMCDsum=   56   99
+Elsobj=   6676.9615      -LL=   3724.4349      evals =  287  ITRMCDsum=   56   81
+ max element scaled gradient and tol =   1.8191297447519322E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          23          23  0.50000000000000000     
+ new lineq search starts at fc =    3724.4343368804857     
+Elsobj=   6677.6424      -LL=   3724.7754      evals =  288  ITRMCDsum=   57  342
+Elsobj=   6677.0390      -LL=   3724.4737      evals =  289  ITRMCDsum=   55  287
+Elsobj=   6676.9505      -LL=   3724.4294      evals =  290  ITRMCDsum=   56  258
+ fc, fp on linesearch exit   3724.4343368804857        3724.4294425231301     
+ computing forward difference gradient
+Elsobj=   6676.9459      -LL=   3724.4271      evals =  291  ITRMCDsum=   55  162
+Elsobj=   6676.9868      -LL=   3724.4476      evals =  292  ITRMCDsum=   57  233
+Elsobj=   6676.9794      -LL=   3724.4439      evals =  293  ITRMCDsum=   53  152
+Elsobj=   6676.9685      -LL=   3724.4385      evals =  294  ITRMCDsum=   54  205
+Elsobj=   6676.9477      -LL=   3724.4280      evals =  295  ITRMCDsum=   56  130
+Elsobj=   6676.9774      -LL=   3724.4429      evals =  296  ITRMCDsum=   54  198
+Elsobj=   6676.9917      -LL=   3724.4500      evals =  297  ITRMCDsum=   56  211
+Elsobj=   6676.9489      -LL=   3724.4286      evals =  298  ITRMCDsum=   54  129
+Elsobj=   6676.9504      -LL=   3724.4294      evals =  299  ITRMCDsum=   56   71
+Elsobj=   6676.9457      -LL=   3724.4270      evals =  300  ITRMCDsum=   56   92
+Elsobj=   6676.9513      -LL=   3724.4298      evals =  301  ITRMCDsum=   56   96
+ max element scaled gradient and tol =   1.7481443050199427E-002   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          24          24  0.50000000000000000     
+ new lineq search starts at fc =    3724.4294425231301     
+Elsobj=   6678.9707      -LL=   3725.4396      evals =  302  ITRMCDsum=   57  377
+Elsobj=   6677.0269      -LL=   3724.4676      evals =  303  ITRMCDsum=   54  363
+Elsobj=   6676.8738      -LL=   3724.3911      evals =  304  ITRMCDsum=   56  317
+ fc, fp on linesearch exit   3724.4294425231301        3724.3910612670138     
+ computing forward difference gradient
+Elsobj=   6676.8716      -LL=   3724.3900      evals =  305  ITRMCDsum=   55  176
+Elsobj=   6676.8718      -LL=   3724.3901      evals =  306  ITRMCDsum=   53  218
+Elsobj=   6676.8734      -LL=   3724.3909      evals =  307  ITRMCDsum=   57  173
+Elsobj=   6676.8726      -LL=   3724.3905      evals =  308  ITRMCDsum=   57  237
+Elsobj=   6676.8741      -LL=   3724.3913      evals =  309  ITRMCDsum=   53  168
+Elsobj=   6676.8707      -LL=   3724.3895      evals =  310  ITRMCDsum=   55  246
+Elsobj=   6676.8805      -LL=   3724.3944      evals =  311  ITRMCDsum=   56  190
+Elsobj=   6676.8726      -LL=   3724.3905      evals =  312  ITRMCDsum=   57  139
+Elsobj=   6676.8741      -LL=   3724.3912      evals =  313  ITRMCDsum=   56   75
+Elsobj=   6676.8694      -LL=   3724.3889      evals =  314  ITRMCDsum=   53  106
+Elsobj=   6676.8752      -LL=   3724.3918      evals =  315  ITRMCDsum=   57  100
+ max element scaled gradient and tol =   2.8428292602818866E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          25          25  0.50000000000000000     
+ new lineq search starts at fc =    3724.3910612670138     
+Elsobj=   6676.7168      -LL=   3724.3126      evals =  316  ITRMCDsum=   57  291
+ fc, fp on linesearch exit   3724.3910612670138        3724.3125877348998     
+ computing forward difference gradient
+Elsobj=   6676.7133      -LL=   3724.3108      evals =  317  ITRMCDsum=   56  163
+Elsobj=   6676.7172      -LL=   3724.3128      evals =  318  ITRMCDsum=   55  221
+Elsobj=   6676.7213      -LL=   3724.3148      evals =  319  ITRMCDsum=   53  196
+Elsobj=   6676.7155      -LL=   3724.3119      evals =  320  ITRMCDsum=   54  195
+Elsobj=   6676.7162      -LL=   3724.3123      evals =  321  ITRMCDsum=   56  131
+Elsobj=   6676.7141      -LL=   3724.3112      evals =  322  ITRMCDsum=   57  192
+Elsobj=   6676.7205      -LL=   3724.3144      evals =  323  ITRMCDsum=   55  190
+Elsobj=   6676.7153      -LL=   3724.3119      evals =  324  ITRMCDsum=   55  147
+Elsobj=   6676.7169      -LL=   3724.3126      evals =  325  ITRMCDsum=   56   86
+Elsobj=   6676.7172      -LL=   3724.3128      evals =  326  ITRMCDsum=   57  116
+Elsobj=   6676.7224      -LL=   3724.3154      evals =  327  ITRMCDsum=   57  102
+ max element scaled gradient and tol =   2.3918975842980028E-003   2.0000000000000001E-004
+ itotaliter,itncnt,stepmax=          26          26  0.50000000000000000     
+ new lineq search starts at fc =    3724.3125877348998     

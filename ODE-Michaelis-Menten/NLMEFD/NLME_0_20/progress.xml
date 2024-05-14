@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<progress>
+  <MachineName>LocalHost</MachineName>
+  <ParallelProtocol>none</ParallelProtocol>
+  <ModelName>WorkFlow</ModelName>
+  <StartTime>May 2024 14 4:25:45 PM</StartTime>
+  <EndTime/>
+  <Status>InProgress</Status>
+  <NumOfSamples>1</NumOfSamples>
+  <NumOfSamplesCompleted>0</NumOfSamplesCompleted>
+  <NumOfSamplesFailed>0</NumOfSamplesFailed>
+  <NumOfSamplesExpired>0</NumOfSamplesExpired>
+  <NumOfSamplesErrored>0</NumOfSamplesErrored>
+  <ProgressStage/>
+  <DetailInfoLine1> 	Iteration  	-2LL       	CMultStdev 	tvVmax     	tvKm       	tvV        	tvKa       	K12        	K21        	dVdWT      	nSubj      	nObs      </DetailInfoLine1>
+  <DetailInfoLine2> 	24         	7448.78    	0.517076   	1593.95    	2374.78    	10.0746    	0.964115   	2.46736    	2.08315    	0.969662   	60         	420       </DetailInfoLine2>
+</progress>

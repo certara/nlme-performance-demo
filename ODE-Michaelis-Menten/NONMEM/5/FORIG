@@ -1,0 +1,17 @@
+$PK 
+  CWT = WT/70 
+  TVVMAX= THETA(1) 
+  VMAX=TVVMAX*EXP(ETA(1)) 
+  TVKM = THETA(2) 
+  KM = TVKM 
+  TVV2=THETA(3) 
+  V2=TVV2 *EXP(ETA(2)) 
+  TVKA=THETA(4) 
+  KA=TVKA 
+  SC = V2 
+$ERROR 
+  Y=F*EXP(EPS(2)) + EPS(1) 
+$DES 
+  CONC = A(2)/SC 
+  DADT(1) = -KA*A(1) 
+  DADT(2) =  KA*A(1)-VMAX*CONC/(KM+CONC) 
