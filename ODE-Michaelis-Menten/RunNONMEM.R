@@ -8,16 +8,13 @@ library(dplyr)
 # run all models for time, reboot computer first
 setwd(file.path(home_dir,"NONMEM"))
 source(file.path(home_dir,"GetNPDENONMEM.R")) 
+source(file.path(home_dir,"CleanUp.R")) 
  
 CompNTHETA <- c(0,2) 
 VWTNTHETA <- c(0,1)
 GAMMANTHETA <- c(0,1)
-ETANOMEGA <- c(1,2,3,4,3,6) 
-# be able to restart due to longer runtime
-if(file.exists(file.path(home_dir,"NONMEMResults.RData"))){ 
-  load(file.exists(file.path(home_dir,"NONMEMResults.RData")))
-}else{
-  Results <- data.frame(
+ETANOMEGA <- c(1,2,3,4,3,6)  
+Results <- data.frame(
     StartTime = as.character(),
     EndTime = as.character(),
     ModelNum = as.integer(),
@@ -46,7 +43,7 @@ if(file.exists(file.path(home_dir,"NONMEMResults.RData"))){
     NPDECminSD = as.numeric(),
     SimRunTime = as.numeric()
   )
-}  
+ 
 # start at last model
 Curr_model <- 0
 Start_model <- dim(Results)[1]
@@ -66,9 +63,9 @@ for(this_gamma in 0:1){
                 Covar <- success <- FALSE 
                 wd <- file.path(home_dir,"NONMEM", Curr_model)
                 setwd(wd)
-                filenameStem <- paste0("run",Curr_model)
+                filenameStem <- paste0("Run",Curr_model)
                 command <- paste0("nmfe75 ", paste0(filenameStem,".mod "), paste0(filenameStem,".lst"))
-                StartTime <-  as.ITime(Sys.time())
+                StartTime <-  Sys.time()
                 shell(command)
                 xml_file <- file.path(wd,paste0(filenameStem,".xml"))
                 data <- ""
@@ -137,7 +134,7 @@ for(this_gamma in 0:1){
                   NPDETime = -999
                 )
               }
-            ) 
+            )  
             EndTime <- as.ITime(Sys.time()) 
             NTHETA <- 4 + CompNTHETA[this_comp+1] + VWTNTHETA[this_vwt+1] + GAMMANTHETA[this_gamma+1]
             NOMEGA <- ETANOMEGA[this_eta+1]
@@ -174,6 +171,7 @@ for(this_gamma in 0:1){
             Results <- rbind(Results, This_Result) 
             save(Results, file = file.path(home_dir,"NONMEMResults.RData"))
             write.csv(Results,file.path(home_dir,"NONMEMResults.csv"), quote= FALSE, row.names = FALSE)
+            CleanUp(getwd())
         }else{
           message("Skipping model, already run at ", Results$EndTime[Curr_model])
         }
@@ -182,3 +180,4 @@ for(this_gamma in 0:1){
   }
 } 
 message("Done at ", strptime(Sys.time(), format = "%Y-%m-%d %H:%M"))
+`
